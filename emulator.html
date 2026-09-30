@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Piedrero Arcade - Emulador</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            overflow: hidden;
+        }
+
+        #game {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="game"></div>
+
+    <script>
+        // EmulatorJS
+
+        EJS_player = "#game";
+
+        // NES
+        EJS_core = "nes";
+
+        // De momento dejamos esto vacío.
+        // Aquí pondremos nuestra ROM.
+        EJS_gameUrl = "";
+
+        EJS_gameName = "Mi primer juego";
+
+        EJS_startOnLoaded = true;
+
+        // Archivos del emulador
+        EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+    </script>
+
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+
+</body>
+
+</html>
