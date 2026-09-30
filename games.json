@@ -1,0 +1,16 @@
+{
+    "games": [
+        {
+            "name": "Juego NES",
+            "system": "NES",
+            "core": "nes",
+            "rom": "..."
+        },
+        {
+            "name": "Juego GBA",
+            "system": "GBA",
+            "core": "gba",
+            "rom": "..."
+        }
+    ]
+}
