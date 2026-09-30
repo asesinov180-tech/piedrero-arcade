@@ -1,0 +1,10 @@
+{
+    "games": [
+        {
+            "name": "Mi primer juego",
+            "system": "NES",
+            "core": "fceumm",
+            "rom": ""
+        }
+    ]
+}
